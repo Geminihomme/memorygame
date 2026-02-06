@@ -13,18 +13,19 @@
     }
 
     :root {
-      --bg-primary: #0f0e17;
-      --bg-secondary: #1a1932;
-      --bg-card: #232246;
-      --accent: #7f5af0;
-      --accent-light: #a78bfa;
-      --accent-glow: rgba(127, 90, 240, 0.35);
-      --success: #2cb67d;
-      --success-glow: rgba(44, 182, 125, 0.3);
-      --warning: #ff8906;
+      --bg-primary: #1a1a2e;
+      --bg-secondary: #252542;
+      --bg-card: #2d3a4a;
+      --accent: #82589F;
+      --accent-light: #9b6fb5;
+      --accent-glow: rgba(130, 88, 159, 0.35);
+      --success: #58B19F;
+      --success-glow: rgba(88, 177, 159, 0.3);
+      --warning: #E67E22;
+      --steel-blue: #40739E;
       --text-primary: #fffffe;
-      --text-secondary: #94a1b2;
-      --text-muted: #72757e;
+      --text-secondary: #a8b2c1;
+      --text-muted: #6b7280;
       --radius: 12px;
       --transition: 0.3s ease;
     }
@@ -51,7 +52,7 @@
     .header h1 {
       font-size: 2rem;
       font-weight: 700;
-      background: linear-gradient(135deg, var(--accent-light), var(--accent), var(--success));
+      background: linear-gradient(135deg, var(--warning), var(--accent), var(--success));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -204,7 +205,7 @@
 
     .card-back {
       background: var(--bg-card);
-      border: 2px solid rgba(127, 90, 240, 0.15);
+      border: 2px solid rgba(64, 115, 158, 0.3);
       transition: border-color var(--transition), box-shadow var(--transition);
     }
 
@@ -307,7 +308,7 @@
     .modal h2 {
       font-size: 1.75rem;
       margin-bottom: 0.25rem;
-      background: linear-gradient(135deg, var(--success), var(--accent-light));
+      background: linear-gradient(135deg, var(--success), var(--warning));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
